@@ -8,7 +8,14 @@
     android:layout_gravity="center_vertical"
 
     >
-
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dice_1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="-50sp"
+    />
     <TextView
         android:id="@+id/result"
         android:layout_width="wrap_content"
@@ -18,8 +25,8 @@
         android:textColor="#EC0000"
         android:background="#F6DD01"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="15sp"
-        android:padding="10sp" />
+        android:layout_margin="10px"
+        android:padding="5sp" />
 
     <Button
         android:id="@+id/Roll_button"
@@ -27,8 +34,9 @@
         android:layout_height="wrap_content"
         android:background="#0069ff"
         android:text="@string/roll"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        />
 
-    </Button>
+
 </LinearLayout>
 
